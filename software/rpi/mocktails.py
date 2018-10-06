@@ -29,17 +29,22 @@ DRINK_SIZE = 12 # size of the cup to fill in ounces
 #   bottle 6 = unused
 #   bottle 7 = unused
 MENU = {
-	'sunset cooler': [
+	'SUNSET_COOLER': [
 		{ 'bottle' : 0, 'proportion': 4 },
 		{ 'bottle' : 1, 'proportion': 8 },
 		{ 'bottle' : 2, 'proportion': 1 }
 	],
-	'orange blast': [
+	'CRAZY_DRINK': [
+		{ 'bottle' : 0, 'proportion': 6 },
+		{ 'bottle' : 1, 'proportion': 6 },
+		{ 'bottle' : 2, 'proportion': 6 }
+	],
+	'ORANGE_BLAST': [
 		{ 'bottle' : 0, 'proportion': 4 },
 		{ 'bottle' : 1, 'proportion': 1 },
 		{ 'bottle' : 3, 'proportion': 1 }
 	],
-	'cherry bomb': [
+	'CHERRY_BOMB': [
 		{ 'bottle' : 3, 'proportion': 8 },
 		{ 'bottle' : 2, 'proportion': 1 },
 		{ 'bottle' : 4, 'proportion': 1 }

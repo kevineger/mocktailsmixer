@@ -75,7 +75,8 @@
                 ],
                 "trigger": {
                     "queryPatterns": [
-                        "make me a $Drink:drink drink"
+                        "make me a $Drink:drink drink",
+                        "hey dude, make me a $Drink:drink drink"
                     ]
                 }
             },
@@ -106,6 +107,15 @@
         {
             "name": "$Drink",
             "entities": [
+                {
+                    "key": "CRAZY_DRINK",
+                    "synonyms": [
+                        "crazy bevy",
+                        "crazy",
+                        "bevy",
+                        "bobop"
+                    ]
+                },
                 {
                     "key": "SUNSET_COOLER",
                     "synonyms": [
