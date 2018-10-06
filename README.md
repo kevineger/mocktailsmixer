@@ -383,7 +383,7 @@ Tip: You may want to review the [Actions on Google](https://developers.google.co
 
 ### Step 26: Clone code repository on RPi and move files into correct location
 - Change directory: `$ cd /home/pi/`
-- Clone repository: `$ git clone https://github.com/Deeplocal/mocktailsmixer.git`.
+- Clone repository: `$ git clone https://github.com/kevineger/mocktailsmixer.git`.
 - Update the PUBSUB_PROJECT_ID in mocktailsmixer/software/rpi/\_\_main\_\_.py
 - Copy files into embedded assistant directory: `$ cp -r mocktailsmixer/software/rpi embedded-assistant-sdk-python/googlesamples/`
 
