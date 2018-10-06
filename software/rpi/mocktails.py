@@ -10,12 +10,12 @@ import serial
 import math, random
 import click
 import os.path
+# TODO: Uncomment this import - it's only available for Pi
 # import RPi.GPIO as GPIO 
 from six.moves import input
 from threading import Thread, Event
 import threading
 from queue import Queue
-# from . import (assistant_helpers, auth_helpers, audio_helpers, common_settings)
 from google.rpc import code_pb2
 
 DRINK_SIZE = 12 # size of the cup to fill in ounces
@@ -108,7 +108,7 @@ class Mocktails():
 		return (DRINK_SIZE * (pour_prop / total_prop)) / PUMP_SPEED
 
 	def prime_pump_start(self, which_pump):
-		PRIME_WHICH = which_pump # TODO: Verify 'which_pump' should be a string
+		PRIME_WHICH = which_pump
 		print('Start priming pump ' + PRIME_WHICH)
 		self.msg_q.put('b' + PRIME_WHICH + 'r!') # turn on relay
 

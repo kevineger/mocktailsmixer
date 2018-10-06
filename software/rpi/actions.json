@@ -75,8 +75,7 @@
                 ],
                 "trigger": {
                     "queryPatterns": [
-                        "make me a $Drink:drink drink",
-                        "hey dude, make me a $Drink:drink drink"
+                        "make me a $Drink:drink drink"
                     ]
                 }
             },
